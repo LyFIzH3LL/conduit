@@ -28,7 +28,7 @@ PII_PATTERNS = [
 
 class CompletionRequest(BaseModel):
     prompt: str
-    model: str = "llama-3.1-8b-instant"
+    model: str = "openai/gpt-oss-20b"
     use_cache: bool = True
 
 
